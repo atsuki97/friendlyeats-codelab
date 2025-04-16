@@ -12,7 +12,7 @@ export function onAuthStateChanged(cb) {
 }
 
 export function onIdTokenChanged(cb) {
-  return onIdTokenChanged(auth, cb);
+  return _onIdTokenChanged(auth, cb);
 }
 
 export async function signInWithGoogle() {
